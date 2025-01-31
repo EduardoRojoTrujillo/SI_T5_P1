@@ -1,10 +1,10 @@
 **#SI_T5_P1**
 
 ## Descripción
-Este keylogger es una herramienta sencilla implementada en Python que registra las teclas presionadas por el usuario. Utiliza la biblioteca `pynput.keyboard` para escuchar los eventos del teclado `Listener´ y escribir las teclas presionadas `Key´ en un archivo de texto (`keylog.txt`).
+Este keylogger es una herramienta sencilla implementada en Python que registra las teclas presionadas por el usuario. Utiliza la biblioteca `pynput.keyboard` para escuchar los eventos del teclado `Listener` y escribir las teclas presionadas `Key` en un archivo de texto (`keylog.txt`).
 
 ## Funcionamiento
-El keylogger captura las teclas presionadas por el usuario y las almacena en un archivo llamado `keylog.txt´. Cada vez que se presiona una tecla, también se verifica si es un espacio y se agrega al archivo `keylog.txt´. El programa se detiene cuando se presiona la tecla `escape`.
+El keylogger captura las teclas presionadas por el usuario y las almacena en un archivo llamado `keylog.txt`. Cada vez que se presiona una tecla, también se verifica si es un espacio y se agrega al archivo `keylog.txt`. El programa se detiene cuando se presiona la tecla `escape`.
 
 ### Código
 ```python
